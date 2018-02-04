@@ -1,10 +1,88 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Hello world</title>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" href="css/style2.css">
+	<title>London Insider</title>
 </head>
 <body>
-	<h1>This is a great website</h1>
+	<H1>THE LONDON INSIDER</H1>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  		<a class="navbar-brand" href="#">London</a>
+  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    		<span class="navbar-toggler-icon"></span>
+  			</button>
+  		<div class="collapse navbar-collapse" id="navbarNav">
+    		<ul class="navbar-nav nav-spread">
+      			<li class="nav-item active">
+        			<a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      			</li>
+      			<li class="nav-item">
+        			<a class="nav-link" href="rest.html">Restaurants</a>
+      			</li>
+      			<li class="nav-item">
+        			<a class="nav-link" href="#">Attractions</a>
+      			</li>
+      			<li class="nav-item">
+        			<a class="nav-link disabled" href="#">Afternoon Tea</a>
+      			</li>
+      			<li class="nav-item">
+        			<a class="nav-link disabled" href="#">Sports</a>
+      			</li>
+      			<li class="nav-item">
+        			<a class="nav-link disabled" href="Helloworld.html">Gallery</a>
+      			</li>
+    		</ul>
+  		</div>
+	</nav>
 
+	<div class="container">
+		<div class="row">
+				<!-- left hand side -->
+				<div class="col-sm-8">
+					<H2>Gallery</H2>
+					<div class="row">
+						<div class="col-sm-4">
+							<img class="col-image" src="img/London.jpg">	
+						</div>
+						<div class="col-sm-4">
+							<img class="col-image" src="img/ben.jpg">
+						</div>
+						<div class="col-sm-4">
+							<img class="col-image" src="img/stadium.jpg">
+						</div>
+					</div>
+				</div>		
+			<div class="col-sm-4"> 
+				<div class="card" style="width: 18rem;">
+					<img class="card-img-top" src="img/food.jpg" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Restaurants</h5>
+						<p class="card-text">London is a metropol like no other, with flavours from all over the world. No matter if your looking for cheap eats or fine dining we have the places for you.</p>
+						<a href="https://www.timeout.com/london/restaurants/best-restaurants-in-london" class="btn btn-primary">Top Restaurants</a>
+					</div>
+				</div>
+				<div class="card" style="width: 18rem;">
+				 	<img class="card-img-top" src="img/sightseeing.jpg" alt="Card image cap">
+				 	<div class="card-body">
+				    	<h5 class="card-title">Sightseeing</h5>
+				    	<p class="card-text">In a vibrant city like London it's easy to keep yourself entertained. Home of London eye, Big Ben and Buckingham palance.</p>
+				    	<a href="https://www.visitlondon.com/things-to-do/sightseeing/london-attraction/top-ten-attractions" class="btn btn-primary">Top Attractions</a>
+				  	</div>
+				</div>
+			</div>
+		</div>
+	</div> 
+		<nav class="navbar navbar-light bg-light fixed-bottom">
+		  	<span class="navbar-text">
+		   		<a href="https://www.instagram.com/"><i class="fa fa-instagram"></i>
+		   			<a href="https://www.facebook.com/?ref=logo"><i class="fa fa-facebook-square"></i>
+		   				<a href="https://www.snapchat.com/"><i class="fa fa-snapchat"></i>
+		   					Find us on Instagram, Facebook and Snapchat
+		  	</span>
+		</nav>
 </body>
 </html>
